@@ -395,4 +395,3 @@ process_video(input_path, output_path)
 # third_output = 'harder.mp4'
 # clip3 = VideoFileClip('harder_challenge_video.mp4')
 # third_clip = clip3.fl_image(process_image)
-
