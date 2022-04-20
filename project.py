@@ -11,7 +11,8 @@ Original file is located at
 # New section
 """
 
-!git clone https://github.com/georgesung/road_lane_line_detection/
+#!git clone https://github.com/Omar-sallam/Simple-Perception-Stack-for-Self-Driving-Cars.git
+
 
 import sys 
 input_path=sys.argv[1]
