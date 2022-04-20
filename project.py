@@ -381,14 +381,14 @@ If you're satisfied with your video outputs it's time to submit!
 # Annotate all test_images/*.jpg
 # Save the annotated images as test_images/<original_filename>_annotated.jpg
 
-test_images = os.listdir('test_images/')
+# test_images = os.listdir('test_images/')
 
-for image in test_images:
-    annotated_image = annotate_image(mpimg.imread((os.path.join('test_images', image))))
-    fname = image.split('.')[0] + '_annotated.jpg'  # add '_annotated' suffix to annotated image jpg file
-    #plt.imsave(os.path.join('test_images', fname), annotated_image)
-    plt.imshow(annotated_image)
-    plt.show()
+# for image in test_images:
+#     annotated_image = annotate_image(mpimg.imread((os.path.join('test_images', image))))
+#     fname = image.split('.')[0] + '_annotated.jpg'  # add '_annotated' suffix to annotated image jpg file
+#     #plt.imsave(os.path.join('test_images', fname), annotated_image)
+#     plt.imshow(annotated_image)
+#     plt.show()
 
 def process_video(input_path, output_path):    
     first_output = output_path
