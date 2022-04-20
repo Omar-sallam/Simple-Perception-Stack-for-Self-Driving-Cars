@@ -18,10 +18,6 @@ mode=sys.argv[1]
 input_path=sys.argv[2]
 output_path=sys.argv[3]
   
-# mode = sys.argv[3]
-# source = sys.argv[1]
-# destination = sys.argv[2]
-    
     
     
 # import argparse
