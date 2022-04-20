@@ -13,16 +13,24 @@ Original file is located at
 
 !git clone https://github.com/georgesung/road_lane_line_detection/
 
-import argparse
+import sys 
+mode=sys.argv[1]
+input_path=sys.argv[2]
+output_path=sys.argv[3]
+    
+    
+    
+    
+# import argparse
 
-parser = argparse.ArgumentParser(description='Process some integers.')
-parser.add_argument('input',
-                    help='input video path')
-parser.add_argument('output', help='output video path')
+# parser = argparse.ArgumentParser(description='Process some integers.')
+# parser.add_argument('input',
+#                     help='input video path')
+# parser.add_argument('output', help='output video path')
 
-args = parser.parse_args()
-input_path = args.input
-output_path = args.output
+# args = parser.parse_args()
+# input_path = args.input
+# output_path = args.output
 
 # Commented out IPython magic to ensure Python compatibility.
 #importing some useful packages
