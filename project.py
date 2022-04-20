@@ -396,7 +396,9 @@ def process_video(input_path, output_path):
     clip1 = VideoFileClip(input_path)
     first_clip = clip1.fl_image(process_image)
     first_clip=write_videofile(output_path, audio=False)
+    
 
+process_video(input_path, output_path)
 
 # second_output = 'second.mp4'
 # clip2 = VideoFileClip('project_video.mp4')
