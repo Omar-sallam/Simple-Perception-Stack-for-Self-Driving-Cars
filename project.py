@@ -14,9 +14,8 @@ Original file is located at
 !git clone https://github.com/georgesung/road_lane_line_detection/
 
 import sys 
-mode=sys.argv[1]
-input_path=sys.argv[2]
-output_path=sys.argv[3]
+input_path=sys.argv[1]
+output_path=sys.argv[2]
   
     
     
@@ -395,7 +394,7 @@ def process_video(input_path, output_path):
     first_output = output_path
     clip1 = VideoFileClip(input_path)
     first_clip = clip1.fl_image(process_image)
-    first_clip=write_videofile(output_path, audio=False)
+    first_clip.write_videofile(output_path, audio=False)
     
 
 process_video(input_path, output_path)
