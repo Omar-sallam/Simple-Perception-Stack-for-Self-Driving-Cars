@@ -17,7 +17,10 @@ import sys
 mode=sys.argv[1]
 input_path=sys.argv[2]
 output_path=sys.argv[3]
-    
+  
+# mode = sys.argv[3]
+# source = sys.argv[1]
+# destination = sys.argv[2]
     
     
     
@@ -392,15 +395,18 @@ for image in test_images:
     plt.imshow(annotated_image)
     plt.show()
 
-first_output = output_path
-clip1 = VideoFileClip(input_path)
-first_clip = clip1.fl_image(process_image)
+def process_video(input_path, output_path):    
+    first_output = output_path
+    clip1 = VideoFileClip(input_path)
+    first_clip = clip1.fl_image(process_image)
+    first_clip=write_videofile(output_path, audio=False)
 
-second_output = 'second.mp4'
-clip2 = VideoFileClip('project_video.mp4')
-second_clip = clip2.fl_image(process_image)
 
-third_output = 'harder.mp4'
-clip3 = VideoFileClip('harder_challenge_video.mp4')
-third_clip = clip3.fl_image(process_image)
+# second_output = 'second.mp4'
+# clip2 = VideoFileClip('project_video.mp4')
+# second_clip = clip2.fl_image(process_image)
+
+# third_output = 'harder.mp4'
+# clip3 = VideoFileClip('harder_challenge_video.mp4')
+# third_clip = clip3.fl_image(process_image)
 
