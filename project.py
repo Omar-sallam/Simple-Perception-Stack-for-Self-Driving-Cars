@@ -366,16 +366,16 @@ def process_image(image):
 If you're satisfied with your video outputs it's time to submit!
 
 ## mt7othomsh
-"""
+# """
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 
-!cp /content/drive/MyDrive/Project_data.zip /content/
+# !cp /content/drive/MyDrive/Project_data.zip /content/
 
-# Commented out IPython magic to ensure Python compatibility.
-# %cd /content
-!unzip Project_data.zip
+# # Commented out IPython magic to ensure Python compatibility.
+# # %cd /content
+# !unzip Project_data.zip
 
 """## l7d hena"""
 
