@@ -17,11 +17,11 @@ The goal of this project is to use traditional Computer Vision (i.e. non-machine
 * OpenCV 3.x
 * Pickle (for storing the camera calibration matrix and distortion coefficients)
 * MoviePy (to process video files)
+
 ### 1.3 Project structure
 
-* **lane_tracker.ipynb**: Jupyter notebook with a step-by-step walkthrough of the different components of the pipeline 
+* **notebook.ipynb**: Jupyter notebook with a step-by-step walkthrough of the different components of the pipeline 
 * **test_images/**: Folder containing a set of images for test purposes
-* **readme_images**: Directory to store images used within this README.md
 * **challenge_video.mp4**: Video containing uneven road surfaces and non-uniform lighting conditions
 * **challenge_video_output.mp4**: Resulting output on passing the challenge_video through the pipeline
 * **project_video.mp4**: Video with dark road surfaces and non-uniform lighting conditions
