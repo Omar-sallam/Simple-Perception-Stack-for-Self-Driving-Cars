@@ -26,3 +26,19 @@ The goal of this project is to use traditional Computer Vision (i.e. non-machine
 * **challenge_video_output.mp4**: Resulting output on passing the challenge_video through the pipeline
 * **project_video.mp4**: Video with dark road surfaces and non-uniform lighting conditions
 * **project_video_output.mp4**: Resulting output on passing the project_video through the pipeline
+
+
+The Project Steps
+---
+
+The goals / steps of this project are the following:
+
+* Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
+* Apply a distortion correction to raw images.
+* Use color transforms, gradients, etc., to create a thresholded binary image.
+* Apply a perspective transform to rectify binary image ("birds-eye view").
+* Detect lane pixels and fit to find the lane boundary.
+* Determine the curvature of the lane and vehicle position with respect to center.
+* Warp the detected lane boundaries back onto the original image.
+* Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+
