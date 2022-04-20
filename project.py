@@ -332,8 +332,8 @@ for image in test_images:
     annotated_image = annotate_image(mpimg.imread((os.path.join('test_images', image))))
     fname = image.split('.')[0] + '_annotated.jpg'  # add '_annotated' suffix to annotated image jpg file
     #plt.imsave(os.path.join('test_images', fname), annotated_image)
-    plt.imshow(annotated_image)
-    plt.show()
+   # plt.imshow(annotated_image)
+   # plt.show()
 
 """## Test on Videos
 
